@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface FS3ViewController :UITableViewController<UITextFieldDelegate>
-@property (strong, nonatomic) IBOutlet UITextField *nameField;
+@property (weak, nonatomic) IBOutlet UITextField *nameField;
+@property (weak, nonatomic) IBOutlet UITextField *emailField;
+@property (weak, nonatomic) IBOutlet UITextField *ageField;
+- (IBAction)register:(id)sender;
 
 @end
