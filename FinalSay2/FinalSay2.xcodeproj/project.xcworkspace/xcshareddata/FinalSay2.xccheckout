@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>09EE5092-B172-40D3-99FF-708D6CA3C58D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FinalSay2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B93489E0-E7F6-4DFC-9ED1-E4CDA9CDA662</key>
+		<string>https://github.com/gw1108/medappjam2013.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FinalSay2/FinalSay2.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B93489E0-E7F6-4DFC-9ED1-E4CDA9CDA662</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gw1108/medappjam2013.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B93489E0-E7F6-4DFC-9ED1-E4CDA9CDA662</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B93489E0-E7F6-4DFC-9ED1-E4CDA9CDA662</string>
+			<key>IDESourceControlWCCName</key>
+			<string>medappjam</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B49CE9F3183C3466005619DD /* iPhoneStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49CE9F2183C3466005619DD /* iPhoneStoryBoard.storyboard */; };
+		B49CE9F6183C377F005619DD /* FS2FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B49CE9F5183C377F005619DD /* FS2FirstViewController.m */; };
 		B4D368A1183B6A530074CD60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D368A0183B6A530074CD60 /* Foundation.framework */; };
 		B4D368A3183B6A530074CD60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D368A2183B6A530074CD60 /* CoreGraphics.framework */; };
 		B4D368A5183B6A530074CD60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D368A4183B6A530074CD60 /* UIKit.framework */; };
@@ -32,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B49CE9F2183C3466005619DD /* iPhoneStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneStoryBoard.storyboard; sourceTree = "<group>"; };
+		B49CE9F4183C377F005619DD /* FS2FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS2FirstViewController.h; sourceTree = "<group>"; };
+		B49CE9F5183C377F005619DD /* FS2FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS2FirstViewController.m; sourceTree = "<group>"; };
 		B4D3689D183B6A530074CD60 /* FinalSay2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalSay2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D368A0183B6A530074CD60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B4D368A2183B6A530074CD60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,10 +112,13 @@
 		B4D368A6183B6A530074CD60 /* FinalSay2 */ = {
 			isa = PBXGroup;
 			children = (
+				B49CE9F2183C3466005619DD /* iPhoneStoryBoard.storyboard */,
 				B4D368AF183B6A530074CD60 /* FS2AppDelegate.h */,
 				B4D368B0183B6A530074CD60 /* FS2AppDelegate.m */,
 				B4D368B2183B6A530074CD60 /* Images.xcassets */,
 				B4D368A7183B6A530074CD60 /* Supporting Files */,
+				B49CE9F4183C377F005619DD /* FS2FirstViewController.h */,
+				B49CE9F5183C377F005619DD /* FS2FirstViewController.m */,
 			);
 			path = FinalSay2;
 			sourceTree = "<group>";
@@ -222,6 +230,7 @@
 			files = (
 				B4D368AB183B6A530074CD60 /* InfoPlist.strings in Resources */,
 				B4D368B3183B6A530074CD60 /* Images.xcassets in Resources */,
+				B49CE9F3183C3466005619DD /* iPhoneStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B49CE9F6183C377F005619DD /* FS2FirstViewController.m in Sources */,
 				B4D368B1183B6A530074CD60 /* FS2AppDelegate.m in Sources */,
 				B4D368AD183B6A530074CD60 /* main.m in Sources */,
 			);
@@ -444,6 +454,7 @@
 				B4D368CB183B6A530074CD60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4D368CC183B6A530074CD60 /* Build configuration list for PBXNativeTarget "FinalSay2Tests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +463,7 @@
 				B4D368CE183B6A530074CD60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
