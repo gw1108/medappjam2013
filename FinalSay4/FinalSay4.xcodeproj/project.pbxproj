@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4848B6A183DE8C600F05F61 /* FS3ViewControllerHealthAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = B4848B69183DE8C600F05F61 /* FS3ViewControllerHealthAgent.m */; };
+		B4848B6D183DEAEB00F05F61 /* FS3ViewControllerPetAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = B4848B6C183DEAEB00F05F61 /* FS3ViewControllerPetAgent.m */; };
 		B49CEA4A183C6320005619DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49CEA49183C631F005619DD /* Foundation.framework */; };
 		B49CEA4C183C6320005619DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49CEA4B183C6320005619DD /* CoreGraphics.framework */; };
 		B49CEA4E183C6320005619DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49CEA4D183C6320005619DD /* UIKit.framework */; };
@@ -15,7 +17,6 @@
 		B49CEA5A183C6320005619DD /* FS3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B49CEA59183C6320005619DD /* FS3AppDelegate.m */; };
 		B49CEA5D183C6320005619DD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49CEA5B183C6320005619DD /* Main_iPhone.storyboard */; };
 		B49CEA60183C6320005619DD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49CEA5E183C6320005619DD /* Main_iPad.storyboard */; };
-		B49CEA63183C6320005619DD /* FS3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B49CEA62183C6320005619DD /* FS3ViewController.m */; };
 		B49CEA65183C6321005619DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49CEA64183C6321005619DD /* Images.xcassets */; };
 		B49CEA6C183C6321005619DD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49CEA6B183C6321005619DD /* XCTest.framework */; };
 		B49CEA6D183C6321005619DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49CEA49183C631F005619DD /* Foundation.framework */; };
@@ -24,7 +25,6 @@
 		B49CEA78183C6321005619DD /* FinalSay4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B49CEA77183C6321005619DD /* FinalSay4Tests.m */; };
 		B49CEA83183C8D8E005619DD /* Answers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B49CEA81183C8D8E005619DD /* Answers.xcdatamodeld */; };
 		B49CEA86183C92A9005619DD /* FS3answer.m in Sources */ = {isa = PBXBuildFile; fileRef = B49CEA85183C92A9005619DD /* FS3answer.m */; };
-		B49CEA8A183C9337005619DD /* FS3ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = B49CEA88183C9337005619DD /* FS3ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B4848B68183DE8C600F05F61 /* FS3ViewControllerHealthAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS3ViewControllerHealthAgent.h; sourceTree = "<group>"; };
+		B4848B69183DE8C600F05F61 /* FS3ViewControllerHealthAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS3ViewControllerHealthAgent.m; sourceTree = "<group>"; };
+		B4848B6B183DEAEB00F05F61 /* FS3ViewControllerPetAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS3ViewControllerPetAgent.h; sourceTree = "<group>"; };
+		B4848B6C183DEAEB00F05F61 /* FS3ViewControllerPetAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS3ViewControllerPetAgent.m; sourceTree = "<group>"; };
 		B49CEA46183C631F005619DD /* FinalSay4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalSay4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49CEA49183C631F005619DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B49CEA4B183C6320005619DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,8 +54,6 @@
 		B49CEA59183C6320005619DD /* FS3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FS3AppDelegate.m; sourceTree = "<group>"; };
 		B49CEA5C183C6320005619DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		B49CEA5F183C6320005619DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		B49CEA61183C6320005619DD /* FS3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FS3ViewController.h; sourceTree = "<group>"; };
-		B49CEA62183C6320005619DD /* FS3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FS3ViewController.m; sourceTree = "<group>"; };
 		B49CEA64183C6321005619DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B49CEA6A183C6321005619DD /* FinalSay4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalSay4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49CEA6B183C6321005619DD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,8 +63,6 @@
 		B49CEA82183C8D8E005619DD /* Answers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Answers.xcdatamodel; sourceTree = "<group>"; };
 		B49CEA84183C92A9005619DD /* FS3answer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS3answer.h; sourceTree = "<group>"; };
 		B49CEA85183C92A9005619DD /* FS3answer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS3answer.m; sourceTree = "<group>"; };
-		B49CEA87183C9337005619DD /* FS3ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS3ViewController2.h; sourceTree = "<group>"; };
-		B49CEA88183C9337005619DD /* FS3ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS3ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,16 +125,16 @@
 				B49CEA58183C6320005619DD /* FS3AppDelegate.h */,
 				B49CEA59183C6320005619DD /* FS3AppDelegate.m */,
 				B49CEA5B183C6320005619DD /* Main_iPhone.storyboard */,
+				B4848B6B183DEAEB00F05F61 /* FS3ViewControllerPetAgent.h */,
+				B4848B6C183DEAEB00F05F61 /* FS3ViewControllerPetAgent.m */,
 				B49CEA5E183C6320005619DD /* Main_iPad.storyboard */,
-				B49CEA61183C6320005619DD /* FS3ViewController.h */,
-				B49CEA62183C6320005619DD /* FS3ViewController.m */,
 				B49CEA64183C6321005619DD /* Images.xcassets */,
 				B49CEA50183C6320005619DD /* Supporting Files */,
 				B49CEA81183C8D8E005619DD /* Answers.xcdatamodeld */,
 				B49CEA84183C92A9005619DD /* FS3answer.h */,
 				B49CEA85183C92A9005619DD /* FS3answer.m */,
-				B49CEA87183C9337005619DD /* FS3ViewController2.h */,
-				B49CEA88183C9337005619DD /* FS3ViewController2.m */,
+				B4848B68183DE8C600F05F61 /* FS3ViewControllerHealthAgent.h */,
+				B4848B69183DE8C600F05F61 /* FS3ViewControllerHealthAgent.m */,
 			);
 			path = FinalSay4;
 			sourceTree = "<group>";
@@ -267,11 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B49CEA8A183C9337005619DD /* FS3ViewController2.m in Sources */,
 				B49CEA56183C6320005619DD /* main.m in Sources */,
-				B49CEA63183C6320005619DD /* FS3ViewController.m in Sources */,
+				B4848B6D183DEAEB00F05F61 /* FS3ViewControllerPetAgent.m in Sources */,
 				B49CEA5A183C6320005619DD /* FS3AppDelegate.m in Sources */,
 				B49CEA86183C92A9005619DD /* FS3answer.m in Sources */,
+				B4848B6A183DE8C600F05F61 /* FS3ViewControllerHealthAgent.m in Sources */,
 				B49CEA83183C8D8E005619DD /* Answers.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,6 +491,7 @@
 				B49CEA7D183C6321005619DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B49CEA7E183C6321005619DD /* Build configuration list for PBXNativeTarget "FinalSay4Tests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +500,7 @@
 				B49CEA80183C6321005619DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

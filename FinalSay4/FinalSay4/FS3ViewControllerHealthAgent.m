@@ -1,18 +1,18 @@
 //
-//  FS3ViewController2.m
+//  FS3ViewControllerHealthAgent.m
 //  FinalSay4
 //
-//  Created by VGDC-User on 11/19/13.
+//  Created by VGDC-User on 11/20/13.
 //  Copyright (c) 2013 Team7. All rights reserved.
 //
 
-#import "FS3ViewController2.h"
+#import "FS3ViewControllerHealthAgent.h"
 
-@interface FS3ViewController2 ()
+@interface FS3ViewControllerHealthAgent ()
 
 @end
 
-@implementation FS3ViewController2
+@implementation FS3ViewControllerHealthAgent
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,7 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
