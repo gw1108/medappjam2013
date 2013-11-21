@@ -647,9 +647,9 @@
                                 <rect key="frame" x="20" y="165" width="275" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="If you would like to specify another action or give specific instructions enter them here." translatesAutoresizingMaskIntoConstraints="NO" id="mmf-pg-dEw">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mmf-pg-dEw">
                                 <rect key="frame" x="20" y="253" width="275" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -672,12 +672,23 @@
                                     <segue destination="8YX-ce-x5E" kind="modal" id="eMH-ME-N7S"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIJ-qI-anu">
+                                <rect key="frame" x="249" y="232" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doneOtherAction:" destination="568-OC-gZI" eventType="touchUpInside" id="2Uf-rb-qWg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Pet Agent" id="IwC-kx-qNG"/>
                     <connections>
                         <outlet property="Name" destination="S76-cH-ya3" id="fqU-OH-fz6"/>
+                        <outlet property="OtherAction" destination="mmf-pg-dEw" id="8Ri-4n-BGi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eIL-N5-sAR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1009,10 +1020,10 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="8nD-cZ-7Bl"/>
-        <segue reference="BDA-Zb-iYh"/>
-        <segue reference="02X-HZ-nn3"/>
+        <segue reference="eMH-ME-N7S"/>
         <segue reference="Sns-za-plf"/>
         <segue reference="hdz-AE-SIs"/>
+        <segue reference="02X-HZ-nn3"/>
+        <segue reference="BDA-Zb-iYh"/>
     </inferredMetricsTieBreakers>
 </document>

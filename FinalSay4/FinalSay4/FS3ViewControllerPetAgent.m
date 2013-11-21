@@ -29,6 +29,15 @@
 	// Do any additional setup after loading the view.
     
     self.Name.delegate = self;
+    self.originalCenter = self.view.center;
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidShow:) name:UIKeyboardDidShowNotification object:nil];
+    self.noText = false;
+    if([self.OtherAction.text length] == 0)
+    {
+        self.OtherAction.text = @"If you would like to specify another action or give specific instructions enter them here.";
+        self.noText = true;
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -42,4 +51,24 @@
     return YES;
 }
 
+-(void)keyboardDidShow:(NSNotification *)note
+{
+    self.view.center = CGPointMake(self.view.center.x, (self.view.center.y
+                                   - 140));//140 is a magic number.
+    if(self.noText)
+    {
+        self.OtherAction.text = @"";
+    }
+}
+
+- (IBAction)doneOtherAction:(id)sender {
+    [self.OtherAction resignFirstResponder];
+    self.view.center = self.originalCenter;
+    self.noText = false;
+    if([self.OtherAction.text length] == 0)
+    {
+        self.OtherAction.text = @"If you would like to specify another action or give specific instructions enter them here.";
+        self.noText = true;
+    }
+}
 @end
