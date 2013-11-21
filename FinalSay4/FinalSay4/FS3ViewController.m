@@ -7,6 +7,7 @@
 //
 
 #import "FS3ViewController.h"
+#import "FS3AppDelegate.h"
 
 @interface FS3ViewController ()
 
@@ -19,6 +20,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     self.nameField.delegate = self;
+    [[self emailField]setDelegate:self];
+    [[self ageField]setDelegate:self];
 }
 
 - (void)didReceiveMemoryWarning
@@ -32,4 +35,10 @@
     return YES;
 }
 
+-(void)didMoveToParentViewController:(UIViewController *)parent {
+    //save all the stuff into the shit.
+}
+
+- (IBAction)register:(id)sender {
+}
 @end

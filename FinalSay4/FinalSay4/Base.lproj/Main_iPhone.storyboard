@@ -12,6 +12,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <pickerView key="tableFooterView" contentMode="scaleToFill" id="CgV-e7-4q4">
+                            <rect key="frame" x="0.0" y="197" width="320" height="216"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        </pickerView>
                         <sections>
                             <tableViewSection headerTitle="Registration" id="mtz-1B-JLJ">
                                 <cells>
@@ -94,12 +98,14 @@
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Item" id="Xv4-f1-z75"/>
                     <connections>
+                        <outlet property="ageField" destination="IkP-t9-ElI" id="MbM-cy-lf7"/>
+                        <outlet property="emailField" destination="Bg4-Gb-vug" id="mGM-6z-vXR"/>
                         <outlet property="nameField" destination="WAi-32-yKl" id="wuv-vu-EZP"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mPy-an-QlS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="154" y="-275"/>
+            <point key="canvasLocation" x="26" y="-426"/>
         </scene>
         <!--View Controller - Item 1-->
         <scene sceneID="XXM-Yb-3uL">
@@ -160,10 +166,10 @@
             </objects>
             <point key="canvasLocation" x="505" y="914"/>
         </scene>
-        <!--View Controller - Item-->
+        <!--View Controller2 - Item-->
         <scene sceneID="fu4-IR-eMx">
             <objects>
-                <viewController id="iVs-Yx-q0u" sceneMemberID="viewController">
+                <viewController id="iVs-Yx-q0u" customClass="FS3ViewController2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Zrk-N4-59o"/>
                         <viewControllerLayoutGuide type="bottom" id="Blw-N3-Zax"/>
@@ -171,10 +177,21 @@
                     <view key="view" contentMode="scaleToFill" id="u7L-14-lbU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aba-Y4-fdb">
+                                <rect key="frame" x="20" y="173" width="280" height="222"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="zBl-e4-8Jg"/>
-                    <navigationItem key="navigationItem" id="Gmf-3T-NKR"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="zBl-e4-8Jg" userLabel="back"/>
+                    <navigationItem key="navigationItem" id="Gmf-3T-NKR" userLabel="navigation item"/>
+                    <connections>
+                        <outlet property="userInput" destination="Aba-Y4-fdb" id="Mz9-HM-85R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9I2-pH-1G4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
