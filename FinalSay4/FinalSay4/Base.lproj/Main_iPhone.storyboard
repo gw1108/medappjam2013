@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--Health Agent View Controller - Health Agent-->
@@ -60,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="917" y="-920"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Health Agent-->
         <scene sceneID="jOc-Nn-mhN">
             <objects>
-                <viewController id="nvq-zF-qrl" sceneMemberID="viewController">
+                <viewController id="nvq-zF-qrl" customClass="FS3ViewControllerHealthAgent" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HTo-07-1Pl"/>
                         <viewControllerLayoutGuide type="bottom" id="1Z9-95-avy"/>
@@ -152,6 +152,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="cnY-ik-Tiw"/>
+                    <connections>
+                        <outlet property="Address" destination="4MB-Ng-sbF" id="GEe-Ds-aUl"/>
+                        <outlet property="Email" destination="1db-QF-NuJ" id="Dgs-8Y-KFp"/>
+                        <outlet property="Name" destination="EEj-jE-lDF" id="waI-N4-h3t"/>
+                        <outlet property="PhoneNumber" destination="ukP-B9-sZU" id="wOu-br-OF1"/>
+                        <outlet property="RelationshipToYou" destination="uq5-W8-827" id="ZN1-4c-adw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XZB-po-J7G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -565,10 +572,10 @@
             </objects>
             <point key="canvasLocation" x="903" y="2099"/>
         </scene>
-        <!--View Controller - Pet Agent-->
+        <!--View Controller Pet Agent - Pet Agent-->
         <scene sceneID="J2c-SM-4hz">
             <objects>
-                <viewController id="568-OC-gZI" sceneMemberID="viewController">
+                <viewController id="568-OC-gZI" customClass="FS3ViewControllerPetAgent" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DPq-3n-NAI"/>
                         <viewControllerLayoutGuide type="bottom" id="BVp-O5-5Dv"/>
@@ -622,6 +629,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Pet Agent" id="IwC-kx-qNG"/>
+                    <connections>
+                        <outlet property="Name" destination="S76-cH-ya3" id="fqU-OH-fz6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eIL-N5-sAR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -643,7 +653,15 @@
                                 <rect key="frame" x="20" y="20" width="280" height="429"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">You will need two witnesses to verify that you are the person whose name appears on this directive. If you are currently a patient in a skilled nursing facility you must also have a Patient Advocate or Ombudsman act as an additional witness. The full witness statement will be on the next page.                                       These witnesses can not·         be related to you by blood, marriage, or adoption·         be entitled to any part of your estate on your death·         be your health care agent·         be your health care provider·         be an employee of your healthcare provider·         be the operator or employee of a community care facility·         be the operator or employee of a residential care facility for the elderly</mutableString>
+                                <string key="text">You will need two witnesses to verify that you are the person whose name appears on this directive. If you are currently a patient in a skilled nursing facility you must also have a Patient Advocate or Ombudsman act as an additional witness. The full witness statement will be on the next page.                                       These witnesses can not
+·         be related to you by blood, marriage, or adoption
+·         be entitled to any part of your estate on your death
+·         be your health care agent
+·         be your health care provider
+·         be an employee of your healthcare provider
+·         be the operator or employee of a community care facility
+·         be the operator or employee of a residential care facility for the elderly
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -688,7 +706,7 @@
                                 <rect key="frame" x="20" y="34" width="280" height="281"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">STATEMENT OF WITNESSES: I declare under penalty of perjury under the laws of California (1) that the individual who signed or acknowledged this advance health care directive is personally known to me, or that the individual’s identity was proven to me by convincing evidence (2) that the individual signed or acknowledged this advance directive in my presence (3) that the individual appears to be of sound mind and under no duress, fraud, or undue influence, (4) that I am not a person appointed as agent by this advance directive, and (5) that I am not the individual’s health care provider, an employee of the individual’s health care provider, the operator of a community care facility, an employee of an operator of a community care facility, the operator of a residential care facility for the elderly nor an employee of an operator of a residential care facility for the elderly.</mutableString>
+                                <string key="text">STATEMENT OF WITNESSES: I declare under penalty of perjury under the laws of California (1) that the individual who signed or acknowledged this advance health care directive is personally known to me, or that the individual’s identity was proven to me by convincing evidence (2) that the individual signed or acknowledged this advance directive in my presence (3) that the individual appears to be of sound mind and under no duress, fraud, or undue influence, (4) that I am not a person appointed as agent by this advance directive, and (5) that I am not the individual’s health care provider, an employee of the individual’s health care provider, the operator of a community care facility, an employee of an operator of a community care facility, the operator of a residential care facility for the elderly nor an employee of an operator of a residential care facility for the elderly.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -885,7 +903,7 @@
                                 <rect key="frame" x="20" y="34" width="280" height="281"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">STATEMENT OF WITNESSES: I declare under penalty of perjury under the laws of California (1) that the individual who signed or acknowledged this advance health care directive is personally known to me, or that the individual’s identity was proven to me by convincing evidence (2) that the individual signed or acknowledged this advance directive in my presence (3) that the individual appears to be of sound mind and under no duress, fraud, or undue influence, (4) that I am not a person appointed as agent by this advance directive, and (5) that I am not the individual’s health care provider, an employee of the individual’s health care provider, the operator of a community care facility, an employee of an operator of a community care facility, the operator of a residential care facility for the elderly nor an employee of an operator of a residential care facility for the elderly.</mutableString>
+                                <string key="text">STATEMENT OF WITNESSES: I declare under penalty of perjury under the laws of California (1) that the individual who signed or acknowledged this advance health care directive is personally known to me, or that the individual’s identity was proven to me by convincing evidence (2) that the individual signed or acknowledged this advance directive in my presence (3) that the individual appears to be of sound mind and under no duress, fraud, or undue influence, (4) that I am not a person appointed as agent by this advance directive, and (5) that I am not the individual’s health care provider, an employee of the individual’s health care provider, the operator of a community care facility, an employee of an operator of a community care facility, the operator of a residential care facility for the elderly nor an employee of an operator of a residential care facility for the elderly.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>

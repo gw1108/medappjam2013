@@ -19,9 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.nameField.delegate = self;
-    [[self emailField]setDelegate:self];
-    [[self ageField]setDelegate:self];
+    //self.nameField.delegate = self;
+    //[[self emailField]setDelegate:self];
+    //[[self ageField]setDelegate:self];
 }
 
 - (void)didReceiveMemoryWarning
