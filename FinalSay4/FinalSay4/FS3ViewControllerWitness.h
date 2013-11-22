@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "FS3Globals.h"
 
-@interface FS3ViewControllerWitness : UIViewController
+@interface FS3ViewControllerWitness : UIViewController<UIGestureRecognizerDelegate>
 
 @property (strong, nonatomic) IBOutlet UITextField *Name;
 @property (strong, nonatomic) IBOutlet UITextField *Address;
