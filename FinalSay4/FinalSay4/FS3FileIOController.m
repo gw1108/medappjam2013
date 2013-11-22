@@ -17,8 +17,10 @@
 -(void) writeFile:(NSString*) fileName: (NSString*) content{
     
     
+    
+    
 }
--(NSData*) readFile:(NSString*) fileName{
+-(NSString*) readFile:(NSString*) fileName{
     int fd=open([fileName UTF8String], O_RDONLY);
     if(fd==-1){
         return nil;//file does not exist or can not be read
@@ -38,7 +40,7 @@
     
     close(fd);
     
-    return data;
+    return [NSString stringWithUTF8String:[data bytes]];
 }
 
 @end
