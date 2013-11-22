@@ -212,10 +212,10 @@
             </objects>
             <point key="canvasLocation" x="1575" y="-822"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar Controller Master-->
         <scene sceneID="Vex-rW-GRa">
             <objects>
-                <tabBarController wantsFullScreenLayout="YES" id="8YX-ce-x5E" sceneMemberID="viewController">
+                <tabBarController wantsFullScreenLayout="YES" id="8YX-ce-x5E" customClass="FS3UITabBarControllerMaster" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="ncY-HW-p7G"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="JQR-rB-NYL">
@@ -1062,7 +1062,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="8tN-bg-0QI"/>
+        <segue reference="MF9-Cs-O23"/>
         <segue reference="hKg-G6-DM8"/>
         <segue reference="UHG-1u-2Oz"/>
         <segue reference="9Up-cJ-2TS"/>

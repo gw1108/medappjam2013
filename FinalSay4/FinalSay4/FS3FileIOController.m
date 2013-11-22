@@ -20,6 +20,9 @@
     [filehandle closeFile];
     
 }
+
+
+
 -(NSString*) readFile:(NSString*) fileName{
     int fd=open([fileName UTF8String], O_RDONLY);
     if(fd==-1){
