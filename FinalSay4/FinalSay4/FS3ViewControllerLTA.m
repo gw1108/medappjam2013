@@ -9,7 +9,7 @@
 #import "FS3ViewControllerLTA.h"
 
 @interface FS3ViewControllerLTA ()
-
+@property int offset;
 @end
 
 @implementation FS3ViewControllerLTA
@@ -19,6 +19,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.offset=8;
     }
     return self;
 }

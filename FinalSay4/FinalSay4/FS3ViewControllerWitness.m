@@ -9,16 +9,25 @@
 #import "FS3ViewControllerWitness.h"
 
 @interface FS3ViewControllerWitness ()
+@property int offset;
 
 @end
 
+
 @implementation FS3ViewControllerWitness
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.offset=27;
+        if([stateVector objectAtIndex:self.offset]){
+            self.offset=30;
+        }
+        //[stateVector replaceObjectAtIndex: self.offset :YES];
+        [stateVector replaceObjectAtIndex:self.offset withObject:[NSObject alloc]];
     }
     return self;
 }
@@ -28,7 +37,10 @@
     [super viewDidLoad];
 	
     //self.Name.delegate = self;
+    UITapGestureRecognizer *tap=[[UITapGestureRecognizer alloc] initWithTarget:self action: @selector(dismissKeyboard)];
     
+    [tap setCancelsTouchesInView:NO];
+    [self.view addGestureRecognizer:tap];
     
     //[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidShow:) name:UIKeyboardDidShowNotification object:nil];
     self.noText = false;
@@ -39,7 +51,11 @@
     }
 
 }
-
+-(void)dismissKeyboard{
+    [self.Address resignFirstResponder];
+    [self.Name resignFirstResponder];
+    [self.StatementOfWitness resignFirstResponder];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

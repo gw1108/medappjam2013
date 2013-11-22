@@ -10,6 +10,8 @@
 
 @interface FS3ViewControllerInternetAgent ()
 
+@property int offset;
+
 @end
 
 @implementation FS3ViewControllerInternetAgent
@@ -19,6 +21,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.offset=20;
     }
     return self;
 }

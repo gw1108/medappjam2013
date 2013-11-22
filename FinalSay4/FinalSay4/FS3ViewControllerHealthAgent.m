@@ -23,7 +23,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        _offset=0;
+        self.offset=0;
         // Custom initialization
     }
     return self;

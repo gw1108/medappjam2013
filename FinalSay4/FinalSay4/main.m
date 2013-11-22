@@ -15,6 +15,8 @@ NSArray* stateVector;
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
+        
+        stateVector=[NSMutableArray arrayWithObjects:nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil];
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([FS3AppDelegate class]));
     }
 }

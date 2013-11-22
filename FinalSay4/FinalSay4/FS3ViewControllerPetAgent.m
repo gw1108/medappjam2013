@@ -9,7 +9,7 @@
 #import "FS3ViewControllerPetAgent.h"
 
 @interface FS3ViewControllerPetAgent ()
-
+@property int offset;
 @end
 
 @implementation FS3ViewControllerPetAgent
@@ -19,6 +19,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.offset=25;
     }
     return self;
 }

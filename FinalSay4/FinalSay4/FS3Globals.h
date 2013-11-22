@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 
 //@protocol FS3Globals <NSObject>
-extern NSArray* stateVector;
+extern NSMutableArray* stateVector;
 
 
