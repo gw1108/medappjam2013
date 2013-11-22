@@ -9,15 +9,15 @@
 #import "FS3FileIOController.h"
 
 @implementation FS3FileIOController{
-    NSFileManager* fileManager;
-    NSFileHandle* fileHandel;
+
     
 }
 
 -(void) writeFile:(NSString*) fileName: (NSString*) content{
     
-    
-    
+    NSFileHandle *filehandle = [NSFileHandle fileHandleForWritingAtPath:fileName];
+    [filehandle writeData:[content dataUsingEncoding:NSUTF8StringEncoding]];
+    [filehandle closeFile];
     
 }
 -(NSString*) readFile:(NSString*) fileName{
