@@ -10,6 +10,7 @@
 
 @interface FS3FileIOController : NSObject
 
-
+-(void) writeFile:(NSString*) fileName: (NSString*) content;
+-(NSString*) readFile:(NSString*) fileName;
 
 @end
