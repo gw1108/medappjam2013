@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FS3ViewControllerPetAgent : UIViewController
+@interface FS3ViewControllerPetAgent : UIViewController<UITextFieldDelegate>
 @property (strong, nonatomic) IBOutlet UITextField *Name;
 
+@property (strong, nonatomic) IBOutlet UITextView *OtherAction;
 
+@property (nonatomic) CGPoint originalCenter;
+@property (nonatomic) BOOL noText;
+
+- (IBAction)doneOtherAction:(id)sender;
 
 @end
