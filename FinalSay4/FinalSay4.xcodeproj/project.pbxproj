@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41C774CD183EE515001A082A /* FS3ViewControllerLongTermAssistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C774CC183EE515001A082A /* FS3ViewControllerLongTermAssistance.m */; };
+		41C774D0183EF172001A082A /* FS3ViewControllerWitness.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C774CF183EF172001A082A /* FS3ViewControllerWitness.m */; };
+		41C774D3183EF5D1001A082A /* FS3ViewControllerResuscitation.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C774D2183EF5D1001A082A /* FS3ViewControllerResuscitation.m */; };
+		41C774D6183EF6A8001A082A /* FS3ViewControllerLTA.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C774D5183EF6A8001A082A /* FS3ViewControllerLTA.m */; };
+		41C774D9183EF6F8001A082A /* FS3ViewControllerRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C774D8183EF6F8001A082A /* FS3ViewControllerRequests.m */; };
+		41C774DC183EF73A001A082A /* FS3ViewControllerInternetAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C774DB183EF73A001A082A /* FS3ViewControllerInternetAgent.m */; };
 		B4848B6A183DE8C600F05F61 /* FS3ViewControllerHealthAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = B4848B69183DE8C600F05F61 /* FS3ViewControllerHealthAgent.m */; };
 		B4848B6D183DEAEB00F05F61 /* FS3ViewControllerPetAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = B4848B6C183DEAEB00F05F61 /* FS3ViewControllerPetAgent.m */; };
 		B49CEA4A183C6320005619DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49CEA49183C631F005619DD /* Foundation.framework */; };
@@ -38,6 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41C774CB183EE515001A082A /* FS3ViewControllerLongTermAssistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS3ViewControllerLongTermAssistance.h; sourceTree = "<group>"; };
+		41C774CC183EE515001A082A /* FS3ViewControllerLongTermAssistance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS3ViewControllerLongTermAssistance.m; sourceTree = "<group>"; };
+		41C774CE183EF172001A082A /* FS3ViewControllerWitness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS3ViewControllerWitness.h; sourceTree = "<group>"; };
+		41C774CF183EF172001A082A /* FS3ViewControllerWitness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS3ViewControllerWitness.m; sourceTree = "<group>"; };
+		41C774D1183EF5D1001A082A /* FS3ViewControllerResuscitation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS3ViewControllerResuscitation.h; sourceTree = "<group>"; };
+		41C774D2183EF5D1001A082A /* FS3ViewControllerResuscitation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS3ViewControllerResuscitation.m; sourceTree = "<group>"; };
+		41C774D4183EF6A8001A082A /* FS3ViewControllerLTA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS3ViewControllerLTA.h; sourceTree = "<group>"; };
+		41C774D5183EF6A8001A082A /* FS3ViewControllerLTA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS3ViewControllerLTA.m; sourceTree = "<group>"; };
+		41C774D7183EF6F8001A082A /* FS3ViewControllerRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS3ViewControllerRequests.h; sourceTree = "<group>"; };
+		41C774D8183EF6F8001A082A /* FS3ViewControllerRequests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS3ViewControllerRequests.m; sourceTree = "<group>"; };
+		41C774DA183EF73A001A082A /* FS3ViewControllerInternetAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS3ViewControllerInternetAgent.h; sourceTree = "<group>"; };
+		41C774DB183EF73A001A082A /* FS3ViewControllerInternetAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS3ViewControllerInternetAgent.m; sourceTree = "<group>"; };
 		B4848B68183DE8C600F05F61 /* FS3ViewControllerHealthAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS3ViewControllerHealthAgent.h; sourceTree = "<group>"; };
 		B4848B69183DE8C600F05F61 /* FS3ViewControllerHealthAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS3ViewControllerHealthAgent.m; sourceTree = "<group>"; };
 		B4848B6B183DEAEB00F05F61 /* FS3ViewControllerPetAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS3ViewControllerPetAgent.h; sourceTree = "<group>"; };
@@ -125,6 +143,10 @@
 				B49CEA58183C6320005619DD /* FS3AppDelegate.h */,
 				B49CEA59183C6320005619DD /* FS3AppDelegate.m */,
 				B49CEA5B183C6320005619DD /* Main_iPhone.storyboard */,
+				41C774DA183EF73A001A082A /* FS3ViewControllerInternetAgent.h */,
+				41C774DB183EF73A001A082A /* FS3ViewControllerInternetAgent.m */,
+				41C774D4183EF6A8001A082A /* FS3ViewControllerLTA.h */,
+				41C774D5183EF6A8001A082A /* FS3ViewControllerLTA.m */,
 				B4848B6B183DEAEB00F05F61 /* FS3ViewControllerPetAgent.h */,
 				B4848B6C183DEAEB00F05F61 /* FS3ViewControllerPetAgent.m */,
 				B49CEA5E183C6320005619DD /* Main_iPad.storyboard */,
@@ -135,6 +157,14 @@
 				B49CEA85183C92A9005619DD /* FS3answer.m */,
 				B4848B68183DE8C600F05F61 /* FS3ViewControllerHealthAgent.h */,
 				B4848B69183DE8C600F05F61 /* FS3ViewControllerHealthAgent.m */,
+				41C774CB183EE515001A082A /* FS3ViewControllerLongTermAssistance.h */,
+				41C774CC183EE515001A082A /* FS3ViewControllerLongTermAssistance.m */,
+				41C774CE183EF172001A082A /* FS3ViewControllerWitness.h */,
+				41C774CF183EF172001A082A /* FS3ViewControllerWitness.m */,
+				41C774D1183EF5D1001A082A /* FS3ViewControllerResuscitation.h */,
+				41C774D2183EF5D1001A082A /* FS3ViewControllerResuscitation.m */,
+				41C774D7183EF6F8001A082A /* FS3ViewControllerRequests.h */,
+				41C774D8183EF6F8001A082A /* FS3ViewControllerRequests.m */,
 			);
 			path = FinalSay4;
 			sourceTree = "<group>";
@@ -267,10 +297,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C774D9183EF6F8001A082A /* FS3ViewControllerRequests.m in Sources */,
+				41C774CD183EE515001A082A /* FS3ViewControllerLongTermAssistance.m in Sources */,
+				41C774D6183EF6A8001A082A /* FS3ViewControllerLTA.m in Sources */,
+				41C774D3183EF5D1001A082A /* FS3ViewControllerResuscitation.m in Sources */,
+				41C774DC183EF73A001A082A /* FS3ViewControllerInternetAgent.m in Sources */,
 				B49CEA56183C6320005619DD /* main.m in Sources */,
 				B4848B6D183DEAEB00F05F61 /* FS3ViewControllerPetAgent.m in Sources */,
 				B49CEA5A183C6320005619DD /* FS3AppDelegate.m in Sources */,
 				B49CEA86183C92A9005619DD /* FS3answer.m in Sources */,
+				41C774D0183EF172001A082A /* FS3ViewControllerWitness.m in Sources */,
 				B4848B6A183DE8C600F05F61 /* FS3ViewControllerHealthAgent.m in Sources */,
 				B49CEA83183C8D8E005619DD /* Answers.xcdatamodeld in Sources */,
 			);
