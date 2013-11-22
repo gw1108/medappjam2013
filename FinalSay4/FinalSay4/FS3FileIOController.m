@@ -8,12 +8,12 @@
 
 #import "FS3FileIOController.h"
 
-@implementation FS3FileIOController{
+@implementation FS3FileIOController
 
     
-}
 
--(void) writeFile:(NSString*) fileName: (NSString*) content{
+
++(void) writeFile:(NSString*) fileName: (NSString*) content{
     
     NSFileHandle *filehandle = [NSFileHandle fileHandleForWritingAtPath:fileName];
     [filehandle writeData:[content dataUsingEncoding:NSUTF8StringEncoding]];
@@ -23,7 +23,7 @@
 
 
 
--(NSString*) readFile:(NSString*) fileName{
++(NSString*) readFile:(NSString*) fileName{
     int fd=open([fileName UTF8String], O_RDONLY);
     if(fd==-1){
         return nil;//file does not exist or can not be read
