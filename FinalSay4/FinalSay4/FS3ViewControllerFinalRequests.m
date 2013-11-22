@@ -1,18 +1,18 @@
 //
-//  FS3ViewControllerPetAgent.m
+//  FS3ViewControllerFinalRequests.m
 //  FinalSay4
 //
-//  Created by VGDC-User on 11/20/13.
+//  Created by VGDC-User on 11/21/13.
 //  Copyright (c) 2013 Team7. All rights reserved.
 //
 
-#import "FS3ViewControllerPetAgent.h"
+#import "FS3ViewControllerFinalRequests.h"
 
-@interface FS3ViewControllerPetAgent ()
+@interface FS3ViewControllerFinalRequests ()
 
 @end
 
-@implementation FS3ViewControllerPetAgent
+@implementation FS3ViewControllerFinalRequests
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,14 +27,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    
-    self.Name.delegate = self;
+    self.DyingRequest.delegate = self;
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidShow:) name:UIKeyboardDidShowNotification object:nil];
     self.noText = false;
-    if([self.OtherAction.text length] == 0)
+    if([self.DyingRequest.text length] == 0)
     {
-        self.OtherAction.text = @"";
+        self.DyingRequest.text = @"Enter any specific requests here.";
         self.noText = true;
     }
 }
@@ -54,16 +53,16 @@
 {
     if(self.noText)
     {
-        self.OtherAction.text = @"";
+        self.DyingRequest.text = @"";
     }
 }
 
-- (IBAction)doneOtherAction:(id)sender {
-    [self.OtherAction resignFirstResponder];
+- (IBAction)doneOther:(id)sender {
+    [self.DyingRequest resignFirstResponder];
     self.noText = false;
-    if([self.OtherAction.text length] == 0)
+    if([self.DyingRequest.text length] == 0)
     {
-        self.OtherAction.text = @"If you would like to specify another action or give specific instructions enter them here.";
+        self.DyingRequest.text = @"Enter any specific requests here.";
         self.noText = true;
     }
 }
