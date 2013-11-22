@@ -10,7 +10,12 @@
 
 @interface FS3ViewControllerHealthAgent ()
 
+@property int offset;
+
+
+
 @end
+
 
 @implementation FS3ViewControllerHealthAgent
 
@@ -18,6 +23,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        _offset=0;
         // Custom initialization
     }
     return self;

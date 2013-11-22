@@ -10,9 +10,18 @@
 
 @implementation FS3AppDelegate
 
+//@synthesize currentController;
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    //self.currentController = [[tabController viewControllers] objectAtIndex:0];
+    
+    
+    
+    
     return YES;
 }
 							

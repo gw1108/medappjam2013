@@ -62,6 +62,7 @@
 		41C774DE183F20A8001A082A /* FS3FileIOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS3FileIOController.m; sourceTree = "<group>"; };
 		41C774E0183F3D73001A082A /* FS3UITabBarControllerMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS3UITabBarControllerMaster.h; sourceTree = "<group>"; };
 		41C774E1183F3D73001A082A /* FS3UITabBarControllerMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS3UITabBarControllerMaster.m; sourceTree = "<group>"; };
+		41C774E3183F5C57001A082A /* FS3Globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FS3Globals.h; sourceTree = "<group>"; };
 		B4848B68183DE8C600F05F61 /* FS3ViewControllerHealthAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS3ViewControllerHealthAgent.h; sourceTree = "<group>"; };
 		B4848B69183DE8C600F05F61 /* FS3ViewControllerHealthAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS3ViewControllerHealthAgent.m; sourceTree = "<group>"; };
 		B4848B6B183DEAEB00F05F61 /* FS3ViewControllerPetAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS3ViewControllerPetAgent.h; sourceTree = "<group>"; };
@@ -147,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				B49CEA58183C6320005619DD /* FS3AppDelegate.h */,
+				41C774E3183F5C57001A082A /* FS3Globals.h */,
 				B49CEA59183C6320005619DD /* FS3AppDelegate.m */,
 				41C774DD183F20A8001A082A /* FS3FileIOController.h */,
 				41C774DE183F20A8001A082A /* FS3FileIOController.m */,

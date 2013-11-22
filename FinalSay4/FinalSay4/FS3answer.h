@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FS3Globals.h"
 
 @interface FS3answer : NSObject
 

@@ -10,6 +10,8 @@
 
 #import "FS3AppDelegate.h"
 
+NSArray* stateVector;
+
 int main(int argc, char * argv[])
 {
     @autoreleasepool {

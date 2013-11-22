@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FS3Globals.h"
 
 @interface FS3ViewControllerPetAgent : UIViewController<UITextFieldDelegate>
 @property (strong, nonatomic) IBOutlet UITextField *Name;
