@@ -13,6 +13,7 @@
 
 @property (strong, nonatomic) IBOutlet UITextView *OtherAction;
 
+@property (nonatomic) CGPoint originalCenter;
 @property (nonatomic) BOOL noText;
 
 - (IBAction)doneOtherAction:(id)sender;

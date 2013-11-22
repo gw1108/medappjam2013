@@ -435,10 +435,10 @@
             </objects>
             <point key="canvasLocation" x="1490" y="604"/>
         </scene>
-        <!--View Controller Final Requests - Requests-->
+        <!--View Controller - Requests-->
         <scene sceneID="6nE-iN-zPi">
             <objects>
-                <viewController id="cnp-DS-HdI" customClass="FS3ViewControllerFinalRequests" sceneMemberID="viewController">
+                <viewController id="cnp-DS-HdI" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BEF-jp-VGc"/>
                         <viewControllerLayoutGuide type="bottom" id="WkX-Z3-gM1"/>
@@ -457,7 +457,7 @@
                                 <rect key="frame" x="20" y="72" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </switch>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Can live without pain" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9TE-4x-OE2">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="can live without pain" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9TE-4x-OE2">
                                 <rect key="frame" x="77" y="77" width="223" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -483,7 +483,7 @@
                                 <rect key="frame" x="20" y="165" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </switch>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Am still alive" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKd-KN-9t3">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="am still alive" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKd-KN-9t3">
                                 <rect key="frame" x="77" y="209" width="107" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -499,7 +499,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tNj-AW-FlP">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Enter any specific requests here." translatesAutoresizingMaskIntoConstraints="NO" id="tNj-AW-FlP">
                                 <rect key="frame" x="20" y="309" width="280" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -516,36 +516,19 @@
                                     <segue destination="8YX-ce-x5E" kind="modal" id="oNC-5c-RbM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vJ-7q-eiv">
-                                <rect key="frame" x="249" y="276" width="37" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Done">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="doneOther:" destination="cnp-DS-HdI" eventType="touchUpInside" id="UHV-8p-ZYL"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="tNj-AW-FlP" firstAttribute="leading" secondItem="9h3-9t-Bwh" secondAttribute="leading" constant="20" id="RsW-9c-Qay"/>
-                            <constraint firstAttribute="trailing" secondItem="tNj-AW-FlP" secondAttribute="trailing" constant="20" id="zC3-3v-FkT"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Requests" id="rR6-yW-vSO"/>
-                    <connections>
-                        <outlet property="DyingRequest" destination="tNj-AW-FlP" id="3kf-Sa-qWn"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u8k-y6-Rxq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="975" y="1395"/>
         </scene>
-        <!--View Controller Internet Agent - Internet Agent-->
+        <!--View Controller - Internet Agent-->
         <scene sceneID="ur7-Tl-0Jw">
             <objects>
-                <viewController id="rpC-BS-7iP" customClass="FS3ViewControllerInternetAgent" sceneMemberID="viewController">
+                <viewController id="rpC-BS-7iP" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nsK-Fd-c3p"/>
                         <viewControllerLayoutGuide type="bottom" id="GGz-B3-eEp"/>
@@ -590,11 +573,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Person Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y8M-RT-UK9">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y8M-RT-UK9">
                                 <rect key="frame" x="82" y="167" width="218" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b93-Ti-qgH">
                                 <rect key="frame" x="111" y="259" width="98" height="21"/>
@@ -627,24 +610,10 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUc-fU-Iql">
-                                <rect key="frame" x="254" y="259" width="37" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Done">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="doneOtherAction:" destination="rpC-BS-7iP" eventType="touchUpInside" id="FPn-VV-bk7"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Internet Agent" id="b7N-9m-c1W"/>
-                    <connections>
-                        <outlet property="InstructionsText" destination="iYO-ky-dkK" id="H9C-ji-Okr"/>
-                        <outlet property="managedBy" destination="Y8M-RT-UK9" id="Taf-PY-kag"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HZw-Wl-aGv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -680,7 +649,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="If you would like to specify another action or give specific instructions enter them here." translatesAutoresizingMaskIntoConstraints="NO" id="mmf-pg-dEw">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mmf-pg-dEw">
                                 <rect key="frame" x="20" y="253" width="275" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1052,9 +1021,9 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="eMH-ME-N7S"/>
-        <segue reference="hdz-AE-SIs"/>
         <segue reference="Sns-za-plf"/>
+        <segue reference="hdz-AE-SIs"/>
         <segue reference="02X-HZ-nn3"/>
-        <segue reference="EbB-hL-UwS"/>
+        <segue reference="BDA-Zb-iYh"/>
     </inferredMetricsTieBreakers>
 </document>

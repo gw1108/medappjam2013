@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B45D6D59183EEF3000F1AB11 /* FS3ViewControllerFinalRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = B45D6D58183EEF3000F1AB11 /* FS3ViewControllerFinalRequests.m */; };
 		B4848B6A183DE8C600F05F61 /* FS3ViewControllerHealthAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = B4848B69183DE8C600F05F61 /* FS3ViewControllerHealthAgent.m */; };
 		B4848B6D183DEAEB00F05F61 /* FS3ViewControllerPetAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = B4848B6C183DEAEB00F05F61 /* FS3ViewControllerPetAgent.m */; };
 		B49CEA4A183C6320005619DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49CEA49183C631F005619DD /* Foundation.framework */; };
@@ -39,8 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B45D6D57183EEF3000F1AB11 /* FS3ViewControllerFinalRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS3ViewControllerFinalRequests.h; sourceTree = "<group>"; };
-		B45D6D58183EEF3000F1AB11 /* FS3ViewControllerFinalRequests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS3ViewControllerFinalRequests.m; sourceTree = "<group>"; };
 		B4848B68183DE8C600F05F61 /* FS3ViewControllerHealthAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS3ViewControllerHealthAgent.h; sourceTree = "<group>"; };
 		B4848B69183DE8C600F05F61 /* FS3ViewControllerHealthAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FS3ViewControllerHealthAgent.m; sourceTree = "<group>"; };
 		B4848B6B183DEAEB00F05F61 /* FS3ViewControllerPetAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FS3ViewControllerPetAgent.h; sourceTree = "<group>"; };
@@ -138,8 +135,6 @@
 				B49CEA85183C92A9005619DD /* FS3answer.m */,
 				B4848B68183DE8C600F05F61 /* FS3ViewControllerHealthAgent.h */,
 				B4848B69183DE8C600F05F61 /* FS3ViewControllerHealthAgent.m */,
-				B45D6D57183EEF3000F1AB11 /* FS3ViewControllerFinalRequests.h */,
-				B45D6D58183EEF3000F1AB11 /* FS3ViewControllerFinalRequests.m */,
 			);
 			path = FinalSay4;
 			sourceTree = "<group>";
@@ -273,7 +268,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B49CEA56183C6320005619DD /* main.m in Sources */,
-				B45D6D59183EEF3000F1AB11 /* FS3ViewControllerFinalRequests.m in Sources */,
 				B4848B6D183DEAEB00F05F61 /* FS3ViewControllerPetAgent.m in Sources */,
 				B49CEA5A183C6320005619DD /* FS3AppDelegate.m in Sources */,
 				B49CEA86183C92A9005619DD /* FS3answer.m in Sources */,
